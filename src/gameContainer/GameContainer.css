@@ -1,0 +1,41 @@
+.game-container {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container-content {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.game-container-item {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.game-container-item button {
+    margin-top: 10px;
+}
+
+.game-container-add {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.game-container-add button {
+    margin-top: 10px;
+}
